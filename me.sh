@@ -2,7 +2,7 @@
 git init
 git add ${1}
 git commit -m "done ${1}"
-git remote add origin ${2}
+git remote add origin3 ${2}
 git status
-git push -u origin new_branch
+git push -u origin3 new_branch
 git  remote -v
